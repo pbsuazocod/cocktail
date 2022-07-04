@@ -5,31 +5,31 @@
 @import url('https://fonts.googleapis.com/css?family=Varela Round');
 
 .bg-drink-1 {
-    background-image: url('./img/drinks/cosmopolitan.png');
+    background-image: url('./img/drinks/cosmopolitan.jpg');
 }
 
 .bg-drink-2 {
-    background-image: url('./img/drinks/hurricane.png');
+    background-image: url('./img/drinks/hurricane.jpg');
 }
 
 .bg-drink-3 {
-    background-image: url('./img/drinks/glimlet.png');
+    background-image: url('./img/drinks/glimlet.jpg');
 }
 
 .bg-drink-4 {
-    background-image: url('./img/drinks/stormy.png');
+    background-image: url('./img/drinks/stormy.jpg');
 }
 
 .bg-drink-5 {
-    background-image: url('./img/drinks/kirroyal.png');
+    background-image: url('./img/drinks/kirroyal.jpg');
 }
 
 .bg-drink-6 {
-    background-image: url('./img/drinks/collins.png');
+    background-image: url('./img/drinks/collins.jpg');
 }
 
 .bg-drink-7 {
-    background-image: url('./img/drinks/hakutsury.png');
+    background-image: url('./img/drinks/hakutsury.jpg');
 }
 
 .promotions {
@@ -43,6 +43,21 @@
 .selection {
     height: 100vh;
     background-size: 100% 100%;
+}
+
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+.ingredients {
+    height: 12vh;
+    animation: fadeIn 5s;
+}
+
+.ingredients-box {
+    margin-bottom: 19vh;
 }
 
 @media only screen and (max-width: 768px) {
