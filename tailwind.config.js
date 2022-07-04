@@ -7,6 +7,8 @@ module.exports = {
       backgroundImage: {
         'footer': "url('./img/poweredby.png')",
         'wallpaper': "url('./img/wallpaper.png')",
+        'selection': "url('./img/background_selection2.png')",
+        'homescreen': "url('./img/background_homescreen.png')",
       },
       colors: {
         'blue1': '#21375b',
