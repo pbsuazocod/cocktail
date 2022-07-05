@@ -2,7 +2,6 @@ import React from 'react'
 import { useParams } from 'react-router-dom'
 import data from '../data/data.js'
 
-
 function DrinkPage() {
 
     const { id } = useParams();
