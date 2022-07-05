@@ -32,6 +32,10 @@
     background-image: url('./img/drinks/hakutsury.jpg');
 }
 
+.bg-drink-8 {
+    background-image: url('./img/drinks/classic.jpg');
+}
+
 .promotions {
     margin-bottom: 12rem;
 }
