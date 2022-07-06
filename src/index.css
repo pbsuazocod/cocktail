@@ -49,6 +49,17 @@
     background-size: 100% 100%;
 }
 
+.music {
+    position: absolute;
+    top: 5vh;
+    right: 25vh;
+    color: #83d0e3;
+    
+}
+
+.speaker {
+    height: 6vh;
+}
 
 @keyframes fadeIn {
     0% {
@@ -61,25 +72,9 @@
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.bottom-selection-img {
+    height: 17.3vh;
+}
 
 
 .ingredients {
@@ -140,6 +135,25 @@
 }
 
 
+
+@media only screen and (max-width: 1200px) {
+
+    .selection-bottom {
+        margin-bottom: 14vh;
+        margin-left: 19vh;
+    }
+}
+
+
+@media only screen and (max-width: 800px) {
+
+    .selection-bottom {
+        margin-bottom: 12vh;
+        margin-left: 24vh;
+    }
+
+}
+
 @media only screen and (max-width: 768px) {
 
     .logos {
@@ -149,6 +163,13 @@
     .promotions {
         margin-bottom: 5rem;
     }
+
+    .selection-bottom {
+        margin-bottom: 9vh;
+        margin-left: 17vh;
+    }
+
+
 }
 
 @media only screen and (max-width: 375px) {
@@ -160,6 +181,7 @@
     .promotions {
         margin-bottom: 5rem;
     }
+
 }
 
 @media only screen and (max-width: 320px) {
@@ -171,4 +193,5 @@
     .promotions {
         margin-bottom: 2rem;
     }
+
 }
