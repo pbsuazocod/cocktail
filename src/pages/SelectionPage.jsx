@@ -13,7 +13,7 @@ function SelectionPage() {
                     return (
                         <article key={drinkName.id} >
                             <Link to={`/drink/${drinkName.id}`} className="items-center flex flex-col ">
-                                <img src={require(`../img/${drinkName.imagePath}.png`)} className='logos' />
+                                <img alt='Selected cocktail' src={require(`../img/${drinkName.imagePath}.png`)} className='logos' />
                             </Link>
                         </article>
                     )

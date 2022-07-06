@@ -10,12 +10,14 @@ function DrinkPage() {
     return (
         <>
             <a href="/" className=''>
-                <div className={`selection bg-drink-${id} flex flex-col justify-end bg-no-repeat bg-center bg-cover`}>
-                    <div className='ingredients-box'>
+                <div className={`selection bg-drink-${id} flex flex-col justify-end bg-no-repeat bg-center bg-cover relative`}>
+                    {/* <img alt="ingredients of the drinks" src={require(`../img/drinks/name.png`)} className='drink-title' /> */}
+                    <div className=''>
                         <div className="flex items-center flex-col">
-                            <img src={require(`../img/ingredients/${id}.png`)} className='ingredients' />
+                            <img alt="ingredients of the drinks" src={require(`../img/ingredients/${id}.png`)} className='ingredients' />
                         </div>
                     </div>
+                    <img alt="ingredients of the drinks" src={require(`../img/activando.png`)} className='pulse' />
                 </div>
             </a>
         </>
