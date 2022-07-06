@@ -50,15 +50,14 @@
 }
 
 .music {
-    position: absolute;
-    top: 5vh;
-    right: 25vh;
     color: #83d0e3;
-    
+    margin-right: 50vh;
+    margin-top: 4vh;
 }
 
 .speaker {
-    height: 6vh;
+    height: 4vh;
+    width: 20vh;
 }
 
 @keyframes fadeIn {
@@ -69,6 +68,11 @@
     100% {
         opacity: 1;
     }
+}
+
+.selection-bottom {
+    margin-top: 49vh;
+    
 }
 
 
@@ -136,23 +140,8 @@
 
 
 
-@media only screen and (max-width: 1200px) {
-
-    .selection-bottom {
-        margin-bottom: 14vh;
-        margin-left: 19vh;
-    }
-}
 
 
-@media only screen and (max-width: 800px) {
-
-    .selection-bottom {
-        margin-bottom: 12vh;
-        margin-left: 24vh;
-    }
-
-}
 
 @media only screen and (max-width: 768px) {
 
@@ -164,10 +153,6 @@
         margin-bottom: 5rem;
     }
 
-    .selection-bottom {
-        margin-bottom: 9vh;
-        margin-left: 17vh;
-    }
 
 
 }
