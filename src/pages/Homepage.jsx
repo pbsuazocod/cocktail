@@ -14,11 +14,11 @@ function Homepage() {
     return (
         <div className={`bg-homescreen relative selection bg-no-repeat bg-center bg-cover flex flex-col`}>
 
-            <a className=' music' onClick={() => play()} onCLick={() => stop()}>
+            {/* <a className=' music' onClick={() => play()} onCLick={() => stop()}>
                 <span className='bg-green-300' role="img" aria-label="trumpet" >
                     <GiSpeaker className='speaker w-screen' />
                 </span>
-            </a>
+            </a> */}
 
             <div className="flex-1"></div>
 
